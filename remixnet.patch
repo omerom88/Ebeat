@@ -1,0 +1,24 @@
+74,83c74,85
+<     if version > 7:
+<        # 10.5
+<         try:
+<             file = open("/usr/lib/python2.5/string.pyc")
+<         except IOError:
+<             sys.path.append("/Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5")
+<             import socket_live8 as socket  
+<         else:
+<             sys.path.append("/usr/lib/python2.5")
+<             import socket
+---
+>     import socket
+>     
+>     # if version > 7:
+>     #    # 10.5
+>     #     try:
+>     #         file = open("/usr/lib/python2.5/string.pyc")
+>     #     except IOError:
+>     #         sys.path.append("/Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5")
+>     #         import socket_live8 as socket  
+>     #     else:
+>     #         sys.path.append("/usr/lib/python2.5")
+>     #         import socket

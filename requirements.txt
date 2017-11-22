@@ -1,0 +1,6 @@
+pandas
+numpy
+pylive
+# primesense - must be patched version
+mido
+pyglet
